@@ -151,3 +151,8 @@
 ```bash
     npm start or nodemon app.js ## If you have nodemon installed locally
 ```
+
+
+## Small View
+
+![image](https://user-images.githubusercontent.com/71230412/229656088-bf1d89ee-4139-468a-8c79-59cd6ab1b49a.png)
