@@ -4,7 +4,7 @@ const express = require('express');
 const randomPoem = require('./poem-generated'); //Use my generated poem because package `random-poems` has some bugs
 const fs = require('fs');
 const app = express();
-const port = 7000;
+const port = 8080; //Change cause of AWS Elastic BeanStalk don't accept it --> 7000;
 
 app.listen( port, () => console.log (`🚀 Server running at http://127.0.0.1 on ${port}`) );
 
